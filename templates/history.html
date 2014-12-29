@@ -1,0 +1,40 @@
+<!doctype html>
+<!-- See http://www.firepad.io/docs/ for detailed embedding docs. -->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' rel='stylesheet' type='text/css'>
+    <style>
+    html {
+        background: url({{url}}) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    #main {
+        width:639px;
+        height: 222px;
+        background: #ffffff;
+        text-align: center;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        /* bring your own prefixes */
+        transform: translate(-50%, -50%);
+        box-shadow: rgba(34, 36, 38, 0.14902) 0px 3px 6px;
+        opacity: 0.8;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <br>
+        <h1>{{title}}</h1>
+        <h4>{{time}}</h4>
+        <p><a style="text-decoration:none;color:black;" href="http://www.history.com/this-day-in-history">Know More</a></p>
+    </div>
+</body>
+</html>
